@@ -94,18 +94,18 @@ footer {
     background: #ffffff;
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
-    transition: 0.3s ease-in-out;
     text-align: left;
 }
 
+/* 讓 Education 的標題字體與其他標題一致 */
 #education h2 {
-    font-family: 'Playfair Display', serif;
-    color: #8b5e34;
     font-size: 1.8rem;
+    color: #333; /* 調整為與其他標題相同的顏色 */
+    font-family: 'Arial', sans-serif; /* 改為與其他標題相同的字體 */
     text-align: center;
 }
 
-/* Timeline Container */
+/* Timeline 設計 */
 .timeline {
     position: relative;
     margin: 20px 0;
@@ -113,7 +113,6 @@ footer {
     border-left: 3px solid #8b5e34;
 }
 
-/* Timeline Items */
 .timeline-item {
     margin: 20px 0;
     padding-left: 20px;
@@ -131,13 +130,14 @@ footer {
     background: #fdfdfd;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
-    transition: 0.3s ease-in-out;
+    box-shadow: none; /* 移除陰影 */
 }
 
+/* 讓學校標題的字體和大小與其他內容一致 */
 .timeline-content h3 {
     font-size: 1.2rem;
-    color: #8b5e34;
+    color: #333; /* 調整為統一的字體顏色 */
+    font-family: 'Arial', sans-serif;
 }
 
 .timeline-content p {
