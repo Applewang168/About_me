@@ -112,7 +112,7 @@ footer {
 }
 
 .timeline-date {
-    font-size: 0.9rem;
+    font-size: 1.0rem;
     color: #8b5e34;
     font-weight: bold;
     margin-bottom: 5px;
@@ -133,6 +133,6 @@ footer {
 }
 
 .timeline-content p {
-    font-size: 0.9rem;
+    font-size: 1.0rem;
     color: #666;
 }
