@@ -32,10 +32,6 @@ section {
     background: #ffffff;
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
-    transition: 0.3s ease-in-out;
-}
-section:hover {
-    transform: translateY(-3px);
 }
 
 /* Project Cards */
@@ -63,9 +59,6 @@ section:hover {
     border-radius: 5px;
     text-decoration: none;
 }
-.project a:hover {
-    background: #7a4f2f;
-}
 
 /* Contact Links */
 #contact a {
@@ -73,9 +66,7 @@ section:hover {
     text-decoration: none;
     font-weight: bold;
 }
-#contact a:hover {
-    text-decoration: underline;
-}
+
 
 /* Footer */
 footer {
