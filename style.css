@@ -1,4 +1,4 @@
-/* 全局樣式 */
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,14 +8,14 @@ body {
     text-align: center;
 }
 
-/* 頭部區塊 */
+/* Header */
 header {
     padding: 50px;
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* 主要區塊 */
+/* Main Sections */
 section {
     padding: 40px;
     margin: 20px;
@@ -24,7 +24,7 @@ section {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* 專案卡片 */
+/* Project Cards */
 .project-card {
     background: #fff;
     padding: 15px;
@@ -49,7 +49,7 @@ section {
     background: #0056b3;
 }
 
-/* 聯絡方式 */
+/* Contact Section */
 #contact a {
     color: #007bff;
     text-decoration: none;
@@ -58,7 +58,7 @@ section {
     text-decoration: underline;
 }
 
-/* 頁腳 */
+/* Footer */
 footer {
     padding: 20px;
     background: #333;
