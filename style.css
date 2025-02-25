@@ -77,7 +77,10 @@ footer {
     margin-top: 40px;
 }
 
-
+/* 調整專欄內文字與邊界的寬度 */
+#about {
+    padding: 40px 60px; /* 40px 上下，60px 左右 */
+}
 
 /* Education Section */
 #education {
