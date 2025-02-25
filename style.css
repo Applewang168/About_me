@@ -80,7 +80,7 @@ footer {
 /* 調整 About Me 專欄的左右內邊距與外邊距 */
 #about {
     padding: 20px 50px;    /* 20px 上下，40px 左右內邊距 */
-    margin: 0 20px;        /* 0px 上下，20px 左右外邊距 */
+    margin: 0 25px;        /* 0px 上下，20px 左右外邊距 */
     background-color: #f4f4f4;
     border-radius: 10px;
 }
