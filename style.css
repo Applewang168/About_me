@@ -1,58 +1,77 @@
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #4facfe, #00f2fe);
-    color: #333;
+    background-color: #f8f5f1;
+    color: #3e3d3c;
     text-align: center;
 }
 
-/* Header */
+/* Elegant Header */
 header {
     padding: 50px;
-    background: rgba(255, 255, 255, 0.8);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background: #f2e9e4;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Playfair Display', serif;
+}
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1rem;
+    color: #7a7a7a;
 }
 
-/* Main Sections */
+/* Section Styling */
 section {
     padding: 40px;
-    margin: 20px;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    max-width: 800px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease-in-out;
+}
+section:hover {
+    transform: translateY(-3px);
 }
 
 /* Project Cards */
-.project-card {
-    background: #fff;
+.project {
+    background: #fdfdfd;
     padding: 15px;
     border-radius: 10px;
-    margin: 10px auto;
-    width: 60%;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
 }
-.project-card h3 {
-    color: #007bff;
+.project h3 {
+    color: #8b5e34;
+    font-size: 1.2rem;
 }
-.project-card a {
-    display: block;
+.project p {
+    font-size: 0.9rem;
+    color: #666;
+}
+.project a {
+    display: inline-block;
     margin-top: 10px;
-    color: #fff;
-    background: #007bff;
     padding: 8px 12px;
-    text-decoration: none;
+    color: white;
+    background: #8b5e34;
     border-radius: 5px;
+    text-decoration: none;
 }
-.project-card a:hover {
-    background: #0056b3;
+.project a:hover {
+    background: #7a4f2f;
 }
 
-/* Contact Section */
+/* Contact Links */
 #contact a {
-    color: #007bff;
+    color: #8b5e34;
     text-decoration: none;
+    font-weight: bold;
 }
 #contact a:hover {
     text-decoration: underline;
@@ -61,6 +80,8 @@ section {
 /* Footer */
 footer {
     padding: 20px;
-    background: #333;
+    background: #3e3d3c;
     color: white;
+    font-size: 0.9rem;
+    margin-top: 40px;
 }
